@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+*{
+	box-sizing: border-box;
+}
+html{
+	font-size: 10px;
+	height: 100%;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.6rem;
+	color: #3c4955;
+	min-height: 100%;
+    background-color: red;
+}
+
+.ba-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+	grid-template-columns: repeat(12, [col-start] 1fr);
+	grid-template-rows: repeat(5, [row-start] 110px);
+	img {
+		width: 100%;
+	}
+}
+
