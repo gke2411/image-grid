@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px;
+  height: 100%; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  color: #3c4955;
+  min-height: 100%;
+  background-color: #fff; }
+
+.ba-container {
+  margin: 0 auto;
+  max-width: 1220px; }
+
+.ba-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (85px)[12];
+  grid-template-columns: repeat(12, 85px);
+  -ms-grid-rows: 150px 150px 150px 185px 135px;
+  grid-template-rows: 150px 150px 150px 185px 135px;
+  grid-gap: 20px; }
+
+.grid-item {
+  margin: 0;
+  padding: 0; }
+  .grid-item img {
+    max-width: 100%;
+    max-height: 100%; }
+
+.ba-col-1-6 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-column: 1 / 7; }
+
+.ba-col-7-13 {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 6;
+  grid-column: 7 / 13; }
+
+.ba-col-7-9 {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 3;
+  grid-column: 7 / 10; }
+
+.ba-col-9-11 {
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 2;
+  grid-column: 9 / 11; }
+
+.ba-col-11-13 {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-column: 11 / 13; }
+
+.ba-col-7-10 {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 3;
+  grid-column: 7 / 10; }
+
+.ba-col-10-13 {
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 3;
+  grid-column: 10 / 13; }
+
+.ba-col-1-5 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1 / 5; }
+
+.ba-col-5-9 {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 4;
+  grid-column: 5 / 9; }
+
+.ba-col-3-9 {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 6;
+  grid-column: 3 / 9; }
+
+.ba-col-9-13 {
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 4;
+  grid-column: 9 / 13; }
+
+.ba-row-1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2; }
+
+.ba-row-2-3 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3; }
+
+.ba-row-2-4 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2 / 4; }
+
+.ba-row-3 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4; }
+
+.ba-row-4 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4 / 5; }
+
+.ba-row-5 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  grid-row: 5 / 6; }
